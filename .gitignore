@@ -1,0 +1,5 @@
+# Build tools directories
+node_modules/
+
+# VS configs
+.vscode
