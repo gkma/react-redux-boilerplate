@@ -1,0 +1,24 @@
+{
+  "name": "react-redux-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkma/react-redux-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gkma/react-redux-boilerplate/issues"
+  },
+  "homepage": "https://github.com/gkma/react-redux-boilerplate#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "prettier": "^1.17.0"
+  }
+}
