@@ -1,8 +1,8 @@
 /**
- * "actionTypes.js"
- *
- * List of variable constants containing their string equivalent
- * Stored within one object, actionTypes, which can access all
+ * @module: "actionTypes.js"
+ * @description:
+ *  List of variable constants containing their string equivalent
+ *  Stored within one object, actionTypes, which can access all
  */
 
 // !-- ACTION TYPES --! //

@@ -1,9 +1,9 @@
 /**
- * "actionCreator.js"
- *
- * List of functions that return an "actionable" object or function (thunk)
- * Input: type, payload (optional)
- * Output: action object or function
+ * @module: "actionCreator.js"
+ * @description:
+ *  List of functions that return an "actionable" object or function (thunk)
+ *  Input: type, payload (optional)
+ *  Output: action object or function
  */
 
 // !-- IMPORT TYPES --! //
