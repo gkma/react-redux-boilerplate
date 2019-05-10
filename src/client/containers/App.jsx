@@ -6,18 +6,20 @@
 // !-- IMPORT MODULES --! //
 import React from "react";
 import { connect } from "react-redux";
+import { Route } from "react-router-dom";
+
 import * as actions from "../actions/actionCreator";
 
-// !-- APP --! //
-const App = props => {
-  const { defaultMessage, changeText } = props;
+// !-- IMPORT COMPONENTS --! //
+import FormContainer from "./FormContainer";
+
+// APP: Main web app
+
+const App = () => {
   return (
-    <div>
-      <h1>Herein lies a React | Redux Boilerplate</h1>
-      <em>{defaultMessage}</em>
-      <br />
-      <textarea onChange={changeText} value={defaultMessage} />
-    </div>
+    <React.Fragment>
+      <Route exact path="/" component={FormContainer} />
+    </React.Fragment>
   );
 };
 
@@ -36,3 +38,8 @@ export default connect(
   mapStateToProps,
   mapDispatchToProps
 )(App);
+
+// const { defaultMessage, changeText } = props;
+/* <em>{defaultMessage}</em>
+<br />
+<textarea onChange={changeText} value={defaultMessage} /> */

@@ -1,0 +1,15 @@
+.question-block {
+  border-left: 10px solid gold;
+  border-right: 10px solid gold;
+  border-bottom: 2px solid black;
+  padding: 5rem 0;
+}
+
+.question-line {
+  text-align: center;
+  width: 100%;
+}
+
+.answer-select {
+  margin-left: 1rem;
+}

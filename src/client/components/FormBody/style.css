@@ -1,0 +1,9 @@
+.form-body {
+  background-color: #fffdd0;
+  margin: auto;
+  width: 65%;
+}
+
+.form-body > * {
+  margin: 0;
+}
